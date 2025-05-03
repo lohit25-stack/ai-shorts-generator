@@ -1,6 +1,6 @@
 // src/api/server.ts
 import express from 'express';
-import cors from 'cors';
+import * as cors from 'cors';
 import bodyParser from 'body-parser';
 import generateRoute from './generate';
 
