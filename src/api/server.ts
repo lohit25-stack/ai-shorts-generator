@@ -7,7 +7,7 @@ import generateRoute from './generate';
 const app = express();
 const PORT = 3001;
 
-app.use(cors());
+app.use(cors.default());
 app.use(bodyParser.json());
 
 app.use('/api', generateRoute);
